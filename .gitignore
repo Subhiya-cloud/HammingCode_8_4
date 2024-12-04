@@ -1,0 +1,27 @@
+# Ignore object files and binary files
+*.o
+*.exe
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# Ignore compiled libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore build and output directories
+/build/
+/cmake-build-debug
+/dist/
+
+# Ignore logs and environment files
+*.log
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
